@@ -15,6 +15,11 @@ console.log(result);
 
 // Task 2
 
+const numberInput = Number(prompt("Enter a number"));
+
+const digits = [...(numberInput + "")].map((n) => +n);
+console.log(digits);
+
 // Task 3
 
 let numArr = [4, -9, -98, -1, 444, 3, -555];
@@ -60,7 +65,7 @@ function deleteNonNumbers(array) {
       array.splice(i, 1);
     }
   }
-  return numberArray;
+  return array;
 }
 
 const numbersOnly = deleteNonNumbers(arr);
