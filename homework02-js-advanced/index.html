@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reminder App</title>
+  </head>
+  <body>
+    <h1>Reminder App</h1>
+    <label for="title">Title:</label>
+    <input type="text" id="title" placeholder="Enter Title" />
+    <br /><br />
+    <label for="priority">Priority:</label>
+    <select id="priority">
+      <option value="">---Select priority---</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+    <br /><br />
+    <label for="color">Color:</label>
+    <input type="color" id="color" />
+    <br /><br />
+    <label for="description">Description:</label>
+    <textarea id="description" cols="30" rows="10"></textarea>
+    <br /><br />
+    <button id="reminder">Add Reminder</button>
+    <button id="showAll">Show All Reminders</button>
+    <br /><br />
+    <div id="result"></div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
