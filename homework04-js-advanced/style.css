@@ -1,0 +1,37 @@
+#fillTable,#nextTen {
+    padding: 10px;
+    font-size: 19px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:#9c88ff;
+    color: #f5f6fa;
+}
+
+#fillTable:hover, #nextTen:hover {
+    cursor: pointer;
+    background-color:#543ccd ;
+    color: #fbfbfc;
+}
+
+
+table {
+    font-size: 25px;
+    color: #353b48;
+    border: 3px solid #9c88ff ;
+}
+
+thead {
+    color:#2f3640;
+    background-color: #fbc531;
+}
+
+th {
+    border: 3px solid #9c88ff;
+    padding: 3px 15px;
+    background-color: #fbc531;
+}
+
+td {
+    background-color: #faeabe;
+    padding: 3px;
+}
