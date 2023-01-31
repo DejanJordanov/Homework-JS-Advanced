@@ -1,4 +1,4 @@
-#fillTable,#nextTen {
+#fillTable,#nextTen,#previousTen,#nextTenTwo,#previousTenTwo {
     padding: 10px;
     font-size: 19px;
     border: 3px solid black;
@@ -7,7 +7,7 @@
     color: #f5f6fa;
 }
 
-#fillTable:hover, #nextTen:hover {
+#fillTable:hover, #nextTen:hover,#previousTen:hover,#nextTenTwo:hover,#previousTenTwo:hover {
     cursor: pointer;
     background-color:#543ccd ;
     color: #fbfbfc;
@@ -18,6 +18,7 @@ table {
     font-size: 25px;
     color: #353b48;
     border: 3px solid #9c88ff ;
+    display: none;
 }
 
 thead {
@@ -34,4 +35,14 @@ th {
 td {
     background-color: #faeabe;
     padding: 3px;
+}
+
+#nextTen, #previousTen, #nextTenTwo,#previousTenTwo  {
+    display: none;
+    margin-inline: 10px;
+}
+
+.btns {
+    display: flex;
+    margin-top: 10px;
 }
